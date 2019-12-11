@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "payments",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "integer"
+    },
+    "expectedAt": {
+      "type": "date"
+    },
+    "customers": {
+      "model": "customers"
+    }
+  }
+}
