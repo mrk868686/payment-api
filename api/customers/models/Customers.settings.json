@@ -1,18 +1,21 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "customers",
   "info": {
     "name": "customers",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "name": {
       "type": "string"
     },
-    "adress": {
+    "address": {
       "type": "string"
     },
     "company": {
